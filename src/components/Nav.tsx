@@ -1,10 +1,16 @@
 
 const Nav = () => {
   return (
-    <header className="flex justify-around p-5 m-5 text-white bg-transparent">
-      <div>hello</div>
-      <div>log out</div>
-    </header>
+   <header className="flex items-center justify-center w-11/12 p-5 m-5 mx-auto text-gray-300 bg-transparent">
+  <div className="flex space-x-5 font-semibold md:font-extrabold md:space-x-10 ">
+    <div>About</div>
+    <div>Projects</div>
+    <div>Contact</div>
+    <div>Skills</div>
+    <div>Mode</div>
+  </div>
+</header>
+
   )
 }
 
