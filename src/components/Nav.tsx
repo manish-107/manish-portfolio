@@ -1,10 +1,10 @@
 
 const Nav = () => {
   return (
-    <div className="text-black bg-slate-600">
+    <header className="flex justify-around p-5 m-5 text-white bg-transparent">
       <div>hello</div>
       <div>log out</div>
-    </div>
+    </header>
   )
 }
 
