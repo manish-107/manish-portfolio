@@ -6,7 +6,6 @@ const Nav = () => {
     <div>About</div>
     <div>Projects</div>
     <div>Contact</div>
-    <div>Skills</div>
     <div>Mode</div>
   </div>
 </header>

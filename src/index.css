@@ -4,17 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  font-family: Onest Variable,system-ui,sans-serif;
+}
+
 @layer utilities {
+  .bg-dotted {
+    position: relative; /* Ensure the parent div is the reference point */
+  }
+
   .bg-dotted::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
-    background-image: radial-gradient(circle, #d3d3d3 0.5px, rgba(0, 0, 0, 0) 0.5px);
+    background-image: radial-gradient(circle, #d3d3d3a7 0.5px, rgba(0, 0, 0, 0) 0.5px);
     background-size: 20px 20px; /* Adjust this value for more or less spacing */
     pointer-events: none; /* Ensure it doesn't interfere with user interactions */
     z-index: -1; /* Ensure it stays behind the content */
   }
 }
+
