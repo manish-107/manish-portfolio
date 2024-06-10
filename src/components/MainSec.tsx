@@ -2,7 +2,7 @@ import AuthorCard from "./AuthorCard"
 
 const MainSec = () => {
   return (
-    <main className="ml-10 md:ml-36" >
+    <main className="ml-0 md:ml-36" >
       <div className="bg-dotted">
 
         <AuthorCard/>
