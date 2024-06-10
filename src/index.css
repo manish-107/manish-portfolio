@@ -20,10 +20,21 @@ html{
     left: 0;
     width: 90%;
     height: 100%;
-    background-image: radial-gradient(circle, #d3d3d3a7 0.5px, rgba(0, 0, 0, 0) 0.5px);
+    background-image: radial-gradient(circle, #d3d3d361 0.5px, rgba(0, 0, 0, 0) 0.5px);
     background-size: 20px 20px; /* Adjust this value for more or less spacing */
     pointer-events: none; /* Ensure it doesn't interfere with user interactions */
     z-index: -1; /* Ensure it stays behind the content */
+  }
+}
+
+@layer utilities {
+  .glowing-border {
+    @apply border-2 border-[#FFD700];
+    box-shadow: 0 0 5px #FFD700;
+  }
+  .glowing-border-hover:hover {
+    @apply border-2 border-[#FFD700];
+    box-shadow: 0 0 10px #FFD700;
   }
 }
 
