@@ -1,16 +1,14 @@
-
 const Nav = () => {
   return (
-   <header className="flex items-center justify-center w-11/12 p-5 m-5 mx-auto text-gray-300 bg-transparent">
-  <div className="flex space-x-5 font-semibold md:font-extrabold md:space-x-10 ">
-    <div>About</div>
-    <div>Projects</div>
-    <div>Contact</div>
-    <div>Mode</div>
-  </div>
-</header>
-
-  )
+   <header className="fixed z-50 flex items-center justify-center w-11/12 p-5 m-5 mx-auto mb-56 ml-5 text-gray-100 rounded-sm bg-opacity-5 md:ml-16 bg-slate-400 backdrop-blur-md">
+     <div className="flex space-x-5 font-semibold md:font-extrabold md:space-x-10">
+       <div>About</div>
+       <div>Projects</div>
+       <div>Contact</div>
+       <div>Mode</div>
+     </div>
+   </header>
+  );
 }
 
-export default Nav
+export default Nav;

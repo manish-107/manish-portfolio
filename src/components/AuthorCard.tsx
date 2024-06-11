@@ -1,7 +1,7 @@
 const AuthorCard = () => {
   return (
-    <div className="flex items-center ml-6 mr-10 md:ml-28">
-      <div className="relative flex flex-col items-start w-full max-w-2xl px-4 py-8 my-8 space-y-4 rounded-lg shadow-lg md:my-16 sm:flex-row sm:space-y-0 sm:space-x-6 dark:border-gray-400">
+    <div className="flex items-center mt-16 ml-6 mr-10 md:ml-28">
+      <div className="relative flex flex-col items-start w-full max-w-2xl px-4 pt-8 my-8 rounded-lg shadow-lg space-t-4 md:mt-16 sm:flex-row sm:space-y-0 sm:space-x-6 dark:border-gray-400">
         <div className="flex justify-center w-full sm:justify-start sm:w-auto">
           <img
             className="object-cover w-20 h-20 mt-3 mr-3 rounded-full"

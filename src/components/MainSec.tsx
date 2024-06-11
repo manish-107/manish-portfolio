@@ -1,4 +1,5 @@
 import AuthorCard from "./AuthorCard"
+import DetailsBar from "./DetailsBar"
 
 const MainSec = () => {
   return (
@@ -6,6 +7,7 @@ const MainSec = () => {
       <div className="bg-dotted">
 
         <AuthorCard/>
+        <DetailsBar/>
         <h1>hello</h1>
         <h1>hello</h1>
         <h1>hello</h1>
