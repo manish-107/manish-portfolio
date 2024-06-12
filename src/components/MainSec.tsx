@@ -7,6 +7,7 @@ const MainSec = () => {
       <div className="bg-dotted">
 
         <AuthorCard/>
+        
         <DetailsBar/>
         
       </div>

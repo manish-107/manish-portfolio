@@ -1,14 +1,17 @@
+import profilePic from '../assets/profilepic.jpg';
+import { motion } from "framer-motion"
+
 const AuthorCard = () => {
   return (
     <div className="flex items-center mt-16 ml-6 mr-10 md:ml-28">
       <div className="relative flex flex-col items-start w-full max-w-2xl px-4 pt-8 my-8 rounded-lg shadow-lg space-t-4 md:mt-16 sm:flex-row sm:space-y-0 sm:space-x-6 dark:border-gray-400">
-        <div className="flex justify-center w-full sm:justify-start sm:w-auto">
+        <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 1.1 }} className="flex justify-center w-full sm:justify-start sm:w-auto">
           <img
             className="object-cover w-20 h-20 mt-3 mb-3 mr-3 rounded-full"
-            src="https://media.licdn.com/dms/image/D4E03AQFvDPAkPYfcQw/profile-displayphoto-shrink_400_400/0/1717935358796?e=1723680000&v=beta&t=nv5uPQTmaVH7MHlNpFcpfIW6TbG9pCrNObuYofhp_7c"
+            src={profilePic}
             alt="Author"
           />
-        </div>
+        </motion.div>
         <div className="flex flex-col items-center w-full md:items-start sm:w-auto ">
           <div className="flex flex-col items-center md:items-start">
             <div className="flex flex-row">
@@ -30,7 +33,7 @@ const AuthorCard = () => {
             </div>
           </div>
           <div className="flex flex-row gap-4 mt-3">
-            <a
+            <motion.a whileHover={{ scale: 1.1 }}
               href="mailto:manishkulal2676@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -57,8 +60,8 @@ const AuthorCard = () => {
                 <path d="M18 15l3 3l-3 3"></path>
               </svg>
               Contact me
-            </a>
-            <a
+            </motion.a>
+            <motion.a whileHover={{ scale: 1.1 }}
               href="mailto:manishkulal2676@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -85,7 +88,7 @@ const AuthorCard = () => {
                 <path d="M18 15l3 3l-3 3"></path>
               </svg>
               Resume
-            </a>
+            </motion.a>
           </div>
         </div>
       </div>
