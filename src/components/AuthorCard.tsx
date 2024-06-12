@@ -4,7 +4,7 @@ const AuthorCard = () => {
       <div className="relative flex flex-col items-start w-full max-w-2xl px-4 pt-8 my-8 rounded-lg shadow-lg space-t-4 md:mt-16 sm:flex-row sm:space-y-0 sm:space-x-6 dark:border-gray-400">
         <div className="flex justify-center w-full sm:justify-start sm:w-auto">
           <img
-            className="object-cover w-20 h-20 mt-3 mr-3 rounded-full"
+            className="object-cover w-20 h-20 mt-3 mb-3 mr-3 rounded-full"
             src="https://media.licdn.com/dms/image/D4E03AQFvDPAkPYfcQw/profile-displayphoto-shrink_400_400/0/1717935358796?e=1723680000&v=beta&t=nv5uPQTmaVH7MHlNpFcpfIW6TbG9pCrNObuYofhp_7c"
             alt="Author"
           />
@@ -29,7 +29,7 @@ const AuthorCard = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 mt-3">
             <a
               href="mailto:manishkulal2676@gmail.com"
               target="_blank"

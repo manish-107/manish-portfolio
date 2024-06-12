@@ -1,7 +1,7 @@
 
 const DetailsBar = () => {
   return (
-    <div className="ml-0 md:ml-56">
+    <div className="mt-5 ml-0 text-justify md:mt-2 md:ml-56">
       <a className="block max-w-3xl shadow bg-transparent-lg">
         <p className="pl-4 pr-4 font-normal text-gray-400">
           A dedicated software developer specializing in JavaScript, ReactJS, and NodeJs. With a strong background in building dynamic, high-performance web applications. Passionate about coding and problem-solving. I am committed to delivering robust and innovative software solutions.
@@ -9,7 +9,7 @@ const DetailsBar = () => {
       </a>
 
       <section className="flex flex-col md:flex-row">
-        <div className="flex m-6">
+        <div className="flex justify-center m-6">
           <div className="flex flex-wrap justify-center font-semibold ">
            
 

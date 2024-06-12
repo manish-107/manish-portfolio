@@ -1,5 +1,6 @@
 import MainSec from "./components/MainSec.tsx";
 import  Nav  from "./components/Nav.tsx";
+import SkillSection from "./components/SkillSection.tsx";
 const App = () => {
   return (
     <div className="absolute top-0 z-[-2] h-fit lg:h-fit md:h-lvh w-full bg-gray-50 dark:bg-gray-950
@@ -8,7 +9,10 @@ const App = () => {
       <Nav/>
 
     <MainSec/>
- 
+    <div className="container max-w-full ">
+    <SkillSection/>
+
+    </div>
     </div>
   )
 }
