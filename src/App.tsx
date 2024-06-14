@@ -10,8 +10,8 @@ const App = () => {
       <Nav/>
 
     <MainSec/>
-    <div className="container max-w-full ">
     <Marquee/>
+    <div className="">
 
     </div>
     </div>
