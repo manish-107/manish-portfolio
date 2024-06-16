@@ -1,9 +1,9 @@
 import AuthorCard from "./AuthorCard"
 import DetailsBar from "./DetailsBar"
 
-const MainSec = () => {
+const MainSec: React.FC = () => {
   return (
-    <main className="ml-0 md:ml-36" >
+    <main className="mt-16 ml-0 md:ml-10 lg:ml-52 xl:ml-64" >
       <div className="bg-dotted">
 
         <AuthorCard/>

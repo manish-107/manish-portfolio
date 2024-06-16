@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import SkillSection from "./SkillSection";
 
-const Marquee = () => {
+const Marquee: React.FC = () => {
   const marqueeVariants = {
     animate: {
       x: ["0%", "-50%"], // Move halfway (since items are doubled)

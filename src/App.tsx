@@ -2,7 +2,7 @@ import MainSec from "./components/MainSec.tsx";
 import Marquee from "./components/Marquee.tsx";
 import  Nav  from "./components/Nav.tsx";
 // import SkillSection from "./components/SkillSection.tsx";
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="absolute top-0 z-[-2] h-fit lg:h-fit md:h-lvh w-full bg-gray-50 dark:bg-gray-950
       bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))]
