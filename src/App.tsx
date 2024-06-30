@@ -1,6 +1,8 @@
+import Footer from "./components/Footer.tsx";
 import MainSec from "./components/MainSec.tsx";
 import Marquee from "./components/Marquee.tsx";
 import  Nav  from "./components/Nav.tsx";
+import Projects from "./components/Projects.tsx";
 // import SkillSection from "./components/SkillSection.tsx";
 const App: React.FC = () => {
   return (
@@ -12,8 +14,9 @@ const App: React.FC = () => {
     <MainSec/>
     <Marquee/>
     <div className="">
-
+        <Projects/>
     </div>
+    <Footer/>
     </div>
   )
 }

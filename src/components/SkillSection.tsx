@@ -86,8 +86,9 @@ const SkillSection: React.FC = () => {
             description: "Generate build profiles and import them in Chrome or Edge to understand which tasks are taking the longest."
           }
         ].map(({ darkImg, title, description }, index) => (
-          <div className="flex" style={{ opacity: 1, transform: 'none' }} key={index}>
-            <div className="box-border relative flex flex-col gap-5 p-8 overflow-hidden text-black no-underline border rounded-xl dark:border-neutral-800 dark:text-white">
+          <div className="flex " style={{ opacity: 1, transform: 'none' }} key={index}>
+          <div className="box-border relative flex flex-col gap-5 p-8 overflow-hidden text-black no-underline transition-transform duration-500 ease-in-out transform border hover:bg-gray-800 rounded-xl hover:translate-x-1 hover:translate-y-1 dark:border-neutral-800 dark:text-white">
+
               <img alt="" aria-hidden="true" loading="lazy" width="64" height="64" decoding="async" className="hidden dark:block" src={darkImg} style={{ color: 'transparent' }} />
               <div className="flex flex-col gap-2">
                 <h3 className="m-0 font-mono font-bold leading-5 text-gray-900 dark:text-white">{title}</h3>

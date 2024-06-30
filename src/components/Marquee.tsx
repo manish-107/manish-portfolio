@@ -28,14 +28,14 @@ const Marquee: React.FC = () => {
           style={{ width: "200%" }} 
         >
           {[...items, ...items].map((item, index) => (
-            <h1 key={index} className="mx-4 md:mx-10">
+            <h1 key={index} className="mx-4 text-white md:mx-10">
               {item}
             </h1>
           ))}
         </motion.div>
       </div>
-      <div className="containerr max-auto">
-        <section className="mt-20 ml-10 mr-10">
+      <div className="max-auto">
+        <section className="mt-20 ml-4 mr-4">
 
       <SkillSection/>
       
