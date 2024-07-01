@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const AuthorCard: React.FC = () => {
   return (
     <div id="section--1" className="flex items-center ">
-      <div className="relative flex flex-col items-start w-full max-w-2xl px-4 pt-8 my-8 border-gray-400 rounded-lg shadow-lg space-t-4 md:mt-16 sm:flex-row sm:space-y-0 sm:space-x-6">
+      <div className="relative flex flex-col items-start w-full max-w-2xl px-4 pt-8 my-8 border-gray-400 rounded-lg space-t-4 md:mt-16 sm:flex-row sm:space-y-0 sm:space-x-6">
         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 1.1 }} className="flex justify-center w-full sm:justify-start sm:w-auto">
           <img
             className="object-cover w-20 h-20 mt-3 mb-3 mr-3 rounded-full"
