@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const AuthorCard: React.FC = () => {
   return (
     <div id="section--1" className="flex items-center ">
-      <div className="relative flex flex-col items-start w-full max-w-2xl px-4 pt-8 my-8 rounded-lg shadow-lg space-t-4 md:mt-16 sm:flex-row sm:space-y-0 sm:space-x-6 dark:border-gray-400">
+      <div className="relative flex flex-col items-start w-full max-w-2xl px-4 pt-8 my-8 border-gray-400 rounded-lg shadow-lg space-t-4 md:mt-16 sm:flex-row sm:space-y-0 sm:space-x-6">
         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 1.1 }} className="flex justify-center w-full sm:justify-start sm:w-auto">
           <img
             className="object-cover w-20 h-20 mt-3 mb-3 mr-3 rounded-full"
@@ -17,12 +17,12 @@ const AuthorCard: React.FC = () => {
           <div className="flex flex-col items-center md:items-start">
             <div className="flex flex-row">
               <p
-                className="mb-2 text-2xl font-semibold font-display dark:text-gray-200"
+                className="mb-2 text-2xl font-semibold text-gray-200 font-display"
                 itemProp="author"
               >
                 Hey,
               </p>
-              <p className="pl-2 mb-2 text-2xl font-bold font-display dark:text-yellow-200">
+              <p className="pl-2 mb-2 text-2xl font-bold text-yellow-200 font-display">
                 I'm Manish{" "}
               </p>
             </div>
@@ -39,7 +39,7 @@ const AuthorCard: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               role="link"
-              className="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
+              className="inline-flex items-center justify-center gap-2 px-4 py-1 text-white transition bg-gray-800 border border-gray-600 rounded-full focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
             >
               {" "}
               <svg
@@ -67,7 +67,7 @@ const AuthorCard: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               role="link"
-              className="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
+              className="inline-flex items-center justify-center gap-2 px-4 py-1 text-white transition bg-gray-800 border border-gray-600 rounded-full focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
             >
               {" "}
              

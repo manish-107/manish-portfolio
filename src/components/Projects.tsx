@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
         <h2 className="text-center  text-[32px] font-bold  md:text-4xl lg:text-[40px] text-white">
           Projects
         </h2>
-        <p className="font-mono leading-snug text-[#00000080] dark:text-[#FFFFFFB2] text-[16px] lg:text-[20px] xs:text-md max-w-md text-center md:max-w-xl lg:max-w-[640px]">
+        <p className="font-mono leading-snug text-[#FFFFFFB2] text-[16px] lg:text-[20px] xs:text-md max-w-md text-center md:max-w-xl lg:max-w-[640px]">
           I've worked on a variety of projects, from simple websites to complex web applications.
         </p>
       </div>

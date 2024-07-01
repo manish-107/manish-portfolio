@@ -19,7 +19,7 @@ const SkillSection: React.FC = () => {
         <h2 className="gradients_heroHeading__D1nJT max-w-sm pb-1 text-center text-[32px] font-bold tracking-[-0.01em] md:max-w-md md:text-4xl lg:max-w-2xl lg:text-[40px]">
           Skills
         </h2>
-        <p className="font-mono leading-snug text-[#00000080] dark:text-[#FFFFFFB2] text-[16px] lg:text-[20px] xs:text-md max-w-md text-center md:max-w-xl lg:max-w-[640px]">
+        <p className="font-mono leading-snug text-[#FFFFFFB2] text-[16px] lg:text-[20px] xs:text-md max-w-md text-center md:max-w-xl lg:max-w-[640px]">
           Proficient in JavaScript, TypeScript, React, Docker, Node.js, Express, PostgreSQL, and Prisma, with a strong foundation in building scalable and efficient web applications.
         </p>
       </div>
@@ -87,11 +87,11 @@ const SkillSection: React.FC = () => {
           }
         ].map(({ darkImg, title, description }, index) => (
           <div className="flex " style={{ opacity: 1, transform: 'none' }} key={index}>
-          <div className="box-border relative flex flex-col gap-5 p-8 overflow-hidden text-black no-underline transition-transform duration-500 ease-in-out transform border hover:bg-gray-800 rounded-xl hover:translate-x-1 hover:translate-y-1 dark:border-neutral-800 dark:text-white">
+          <div className="box-border relative flex flex-col gap-5 p-8 overflow-hidden text-white no-underline transition-transform duration-500 ease-in-out transform border hover:bg-gray-800 rounded-xl hover:translate-x-1 hover:translate-y-1border-neutral-800">
 
-              <img alt="" aria-hidden="true" loading="lazy" width="64" height="64" decoding="async" className="hidden dark:block" src={darkImg} style={{ color: 'transparent' }} />
+              <img alt="" aria-hidden="true" loading="lazy" width="64" height="64" decoding="async" className="block " src={darkImg} style={{ color: 'transparent' }} />
               <div className="flex flex-col gap-2">
-                <h3 className="m-0 font-mono font-bold leading-5 text-gray-900 dark:text-white">{title}</h3>
+                <h3 className="m-0 font-mono font-bold leading-5 text-white">{title}</h3>
                 <p className="m-0 leading-6 opacity-70">{description}</p>
               </div>
             </div>
