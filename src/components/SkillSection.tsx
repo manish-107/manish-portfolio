@@ -9,12 +9,12 @@ import  nodejs  from '../assets/node-js.png'
 import  postgres  from '../assets/postgres.png'
 import  prisma  from '../assets/prisma.png'
 import  react  from '../assets/react.png'
-import  turborepo  from '../assets/turborepo.png'
 import  mongodb  from '../assets/mongodb.png'
+import  postman  from '../assets/postman-icon.png'
 
 const SkillSection: React.FC = () => {
   return (
-    <section className="relative flex flex-col items-center px-6 py-16 pb-16 font-sans text-sm font-light gap-9 md:pb-24 lg:gap-14 lg:pb-32">
+    <section id="section--2" className="relative flex flex-col items-center px-6 py-16 pb-16 font-sans text-sm font-light gap-9 md:pb-24 lg:gap-14 lg:pb-32">
       <div className="flex flex-col items-center gap-5 md:gap-6" style={{ opacity: 1, transform: 'none' }}>
         <h2 className="gradients_heroHeading__D1nJT max-w-sm pb-1 text-center text-[32px] font-bold tracking-[-0.01em] md:max-w-md md:text-4xl lg:max-w-2xl lg:text-[40px]">
           Skills
@@ -28,62 +28,62 @@ const SkillSection: React.FC = () => {
           {
             darkImg: js,
             title: "Javascript",
-            description: "Building once is painful enough. Turborepo will remember what you've built and skip the stuff that's already been computed."
+            description: "JavaScript: Versatile language for creating interactive and dynamic web content, essential for front-end development."
           },
           {
             darkImg: typescript,
             title: "Typescript",
-            description: "Turborepo looks at the contents of your files, not timestamps to figure out what needs to be built."
+            description: "TypeScript: A superset of JavaScript that adds static typing, enhancing code quality and development efficiency."
           },
           {
             darkImg: java,
             title: "Java",
-            description: "Execute builds using every core at maximum parallelism without wasting idle CPUs."
+            description: "Java: A robust, object-oriented programming language widely used for building cross-platform applications and enterprise-level systems."
           },
           {
             darkImg: react,
             title: "React",
-            description: "Share a remote build cache with your teammates and CI/CD for even faster builds."
+            description: "React: A popular JavaScript library for building user interfaces, emphasizing component-based architecture and efficient rendering."
           },
           {
             darkImg: nodejs,
             title: "NodeJs",
-            description: "Turborepo won’t interfere with your runtime code or touch your sourcemaps."
+            description: "Node.js: A runtime environment for executing JavaScript server-side, enabling scalable, high-performance network applications."
           },
           {
             darkImg: express,
             title: "Express",
-            description: "Speed up PaaS deploys by generating a subset of your monorepo with only what's needed to build a specific target."
+            description: "Express: A minimal and flexible Node.js web application framework providing robust features for web and mobile applications."
           },
           {
             darkImg: mongodb,
             title: "Mongo Db (No sql)",
-            description: "Define the relationships between your tasks and then let Turborepo optimize what to build and when."
+            description: "MongoDB: A NoSQL database known for its flexibility and scalability, storing data in JSON-like documents."
           },
           {
             darkImg:postgres,
             title: "Postgresql & MySql",
-            description: "Using Lerna? Keep your package publishing workflow and use Turborepo to turbocharge task running."
+            description: "PostgreSQL: An advanced open-source relational database known for its reliability, robustness, and extensibility in handling complex queries and data transactions."
           },
           {
             darkImg: prisma,
             title: "Prisma",
-            description: "Generate build profiles and import them in Chrome or Edge to understand which tasks are taking the longest."
+            description: "Prisma: A modern ORM (Object-Relational Mapping) tool that simplifies database access and management through type-safe queries and schema migrations."
           },
           {
             darkImg: docker,
             title: "Docker",
-            description: "Generate build profiles and import them in Chrome or Edge to understand which tasks are taking the longest."
+            description: "Docker: A platform for containerizing applications, simplifying deployment and ensuring consistency across different environments."
           },
           {
             darkImg: github,
             title: "Git GitHub",
-            description: "Generate build profiles and import them in Chrome or Edge to understand which tasks are taking the longest."
+            description: "GitHub: A widely-used platform for version control and collaboration, essential for managing and sharing code repositories."
           },
           {
-            darkImg:turborepo,
-            title: "Terbo Repo",
-            description: "Generate build profiles and import them in Chrome or Edge to understand which tasks are taking the longest."
+            darkImg:postman,
+            title: "Postman",
+            description: "Postman: A popular API client tool used for testing, developing, and documenting APIs, enhancing API workflow and collaboration."
           }
         ].map(({ darkImg, title, description }, index) => (
           <div className="flex " style={{ opacity: 1, transform: 'none' }} key={index}>

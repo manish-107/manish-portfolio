@@ -13,7 +13,7 @@ const App: React.FC = () => {
 
     <MainSec/>
     <Marquee/>
-    <div className="">
+    <div  className="">
         <Projects/>
     </div>
     <Footer/>

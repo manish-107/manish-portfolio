@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section className="relative flex flex-col items-center px-6 py-16 pb-16 mb-5 ml-2 mr-2 font-sans text-sm font-light bg-black md:mb-14 md:ml-20 md:mr-20 rounded-tl-3xl rounded-tr-3xl rounded-xl gap-9 md:pb-24 lg:gap-14 lg:pb-32">
+    <section id="section--3" className="relative flex flex-col items-center px-6 py-16 pb-16 mb-5 ml-2 mr-2 font-sans text-sm font-light bg-black md:mb-14 md:ml-20 md:mr-20 rounded-tl-3xl rounded-tr-3xl rounded-xl gap-9 md:pb-24 lg:gap-14 lg:pb-32">
       <div className="flex flex-col items-center gap-5 md:gap-6" style={{ opacity: 1, transform: 'none' }}>
         <h2 className="text-center  text-[32px] font-bold  md:text-4xl lg:text-[40px] text-white">
           Projects
@@ -65,7 +65,7 @@ const Projects: React.FC = () => {
               </div>
               <div className="mt-1 mb-2 text-xs text-black">{project.date}</div>
               <div className="text-xs text-black">
-                <div>{project.description}</div>
+                <div className='font-semibold text-black'>{project.description}</div>
               </div>
             </div>
             <div>
