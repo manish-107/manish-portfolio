@@ -28,7 +28,7 @@ const Marquee: React.FC = () => {
           style={{ width: "200%" }} 
         >
           {[...items, ...items].map((item, index) => (
-            <h1 key={index} className="mx-4 text-white md:mx-10">
+            <h1 key={index} className="mx-4 text-gray-400 md:mx-10">
               {item}
             </h1>
           ))}
