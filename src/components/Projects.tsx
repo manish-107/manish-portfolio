@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
       date: "Jul 2024",
       img: joshimg,
       github: "https://github.com/manish-107/JOSHIANA13.0",
-      livePreview: "https://manish-youtubeclone.netlify.app/",
+      livePreview: "https://manish-107.github.io/JOSHIANA13.0/",
       description:
         "JOSHIANA13.0 is a web application with a React, Vite, and TailwindCSS frontend and a Node.js, Express, and MongoDB backend, featuring JWT authentication and RESTful API endpoints for managing participants.",
       techStack: ["React", "FramerMotion", "ThreeJs", "TailwindCss"],
