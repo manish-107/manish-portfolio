@@ -3,6 +3,7 @@ import techqueryphp from "../assets/techqueryphp.png";
 import blogweb from "../assets/blogweb.png";
 import tranc from "../assets/transc.jpg";
 import joshimg from "../assets/joshimg.png";
+import payxwiseimg from "../assets/payxwise-img.png";
 
 const Projects: React.FC = () => {
   const projectData = [
@@ -24,6 +25,21 @@ const Projects: React.FC = () => {
       description:
         "JOSHIANA13.0 is a web application with a React, Vite, and TailwindCSS frontend and a Node.js, Express, and MongoDB backend, featuring JWT authentication and RESTful API endpoints for managing participants.",
       techStack: ["React", "FramerMotion", "ThreeJs", "TailwindCss"],
+    },
+    {
+      name: "PayXwise",
+      date: "October 2024",
+      img: payxwiseimg,
+      github: "https://github.com/manish-107/PayXwise",
+      description:
+        "PayXwise is a React Native app designed for managing online transactions and expenses. Built using React Native, Hono.js, Cloudflare Workers, PostgreSQL, and Nativewind, it's part of a college project focused on expense management and payments.",
+      techStack: [
+        "ReactNative",
+        "Hono.js",
+        "Cloudflare Workers",
+        "PostgreSQL",
+        "Nativewind",
+      ],
     },
     {
       name: "YoutubeClone-ytApi",
@@ -54,6 +70,7 @@ const Projects: React.FC = () => {
         "This project is a user-friendly payment application built with Express, Node.js, MongoDB, Mongoose, Tailwind CSS, and React. It simplifies the process of sending money, offering an intuitive interface for effortless transactions and secure, real-time payment management.",
       techStack: ["React", "Node.js", "Express", "Mongodb", "tailwindcss"],
     },
+
     // Add more projects as needed
   ];
 
@@ -74,7 +91,7 @@ const Projects: React.FC = () => {
           web applications.
         </p>
       </div>
-      <div className="grid gap-8 lg:grid-cols-2">
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projectData.map((project, index) => (
           <div
             key={index}
